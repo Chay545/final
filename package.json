@@ -1,4 +1,10 @@
 {
+  "name": "curavida",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "npx tailwindcss -i ./style.css -o ./output.css --minify"
+  },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.17",
     "tailwindcss": "^4.1.17"
